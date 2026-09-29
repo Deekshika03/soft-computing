@@ -5,7 +5,7 @@ from tensorflow.keras.datasets import mnist
 from tensorflow.keras.utils import to_categorical
 import numpy as np
 
-# Step 1: Load the MNIST Dataset
+# Step 1: Load the MNIST Dataset in which there are 70,000 dataset in which 60,000 training data and 10,000 testing data 
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
 
 print("Training Images Shape:", train_images.shape)
